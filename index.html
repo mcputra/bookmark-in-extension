@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Bookmark in Extension</h1>
+    <p>How to use:</p>
+    <p>
+      - Save Input: Input bookmark name and link, if name is empty it will be
+      set automatically to current tab name
+    </p>
+    <p>- Save Tab: Save current tab and name without typing manually</p>
+    <p>
+      - Delete All: Delete all bookmark at once, for safety measure only delete
+      it on double click
+    </p>
+    <input type="text" id="name-el" placeholder="Bookmark name" />
+    <input type="text" id="input-el" placeholder="Bookmark link" />
+    <button id="input-btn">SAVE INPUT</button>
+    <button id="tab-btn">SAVE TAB</button>
+    <button id="delete-btn">DELETE ALL</button>
+    <ul id="ul-el"></ul>
+    <script src="index.js"></script>
+  </body>
+</html>
